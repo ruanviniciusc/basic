@@ -1,0 +1,103 @@
+/* Estilos gerais para todas as páginas */
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.linguagens-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px; /* Afastamento duplicado entre as linguagens */
+}
+
+.linguagem {
+    flex: 1;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.linguagem img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    object-fit: contain; /* As imagens terão o mesmo tamanho e serão centralizadas */
+}
+
+.linguagens-titulos {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos específicos para biblioteca.html */
+
+#biblioteca .recurso {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 20px auto; /* Centraliza as flexboxes horizontalmente */
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para o efeito de cor quando clicado */
+#biblioteca .recurso:hover {
+    background-color: #0074D9;
+}
+
+/* Estilo para os links dentro das flexboxes */
+#biblioteca .recurso a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Estilo para o título e descrição dentro das flexboxes */
+#biblioteca .recurso h2,
+#biblioteca .recurso p {
+    margin: 0;
+}
